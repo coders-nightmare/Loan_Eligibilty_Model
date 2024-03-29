@@ -31,7 +31,8 @@ Source: Kaggle
 
 Add PYTHONPATH variable windows
 
-```set PYTHONPATH=%PYTHONPATH%;E:\MLOps Udemy\LoanEligibility\packaging_ml_model
+```python
+set PYTHONPATH=%PYTHONPATH%;E:\MLOps\LoanEligibility\packaging_ml_model
 
 ```
 
@@ -67,10 +68,6 @@ For Windows
 
 ```python
 ml_package\Scripts\activate
-```
-
-```python
-pip install -r requirements. txt
 ```
 
 Deactivate virtual environment
@@ -150,7 +147,7 @@ pip install .
 3. Also can be installed from git as well after pushing to github
 
 ```
-pip install git+https://github.com/manifoldailearning/prediction_model.git
+pip install git+https://github.com/coders-nightmare/Loan_Eligibilty_Model.git
 ```
 
 # Testing the Package Working
@@ -160,6 +157,6 @@ pip install git+https://github.com/manifoldailearning/prediction_model.git
 3. Create a new virual environment using the commands mentioned above & activate it
 4. Before installing, test whether you are able to import the package of `prediction_model` - (you should not be able to do it)
 5. Now in the new environment install the package from github
-   `pip install git+https://github.com/manifoldailearning/prediction_model.git`
+   `pip install git+https://github.com/coders-nightmare/Loan_Eligibilty_Model.git`
 6. Now try importing the prediction_model, you should be able to do it successfully
 7. Extras : Run training pipeline using the package, and also conduct the test
