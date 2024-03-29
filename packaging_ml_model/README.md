@@ -69,6 +69,10 @@ For Windows
 ml_package\Scripts\activate
 ```
 
+```python
+pip install -r requirements. txt
+```
+
 Deactivate virtual environment
 
 ```python
